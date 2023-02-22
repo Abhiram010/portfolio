@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Abhiram</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- bootstrap@5.3.0-alpha1 -->
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- google fira font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="./assets/lightbox2-2.11.4/src/css/lightbox.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar">
+            <ul id="branding">
+                <span>
+                    <li>
+                        <h5>Adapaka Abhiram</h5>
+                    </li>
+                </span>
+                <li>
+                    <button id="toggler" class="defaults">
+                        <i class="fa-solid fa-bars nav-icons"></i>
+                    </button>
+                </li>
+            </ul>
+            <ul id="items">
+                <button id="closer" class="defaults">
+                    <i class="fa-solid fa-xmark nav-icons"></i>
+                </button>
+                <li>
+                    <a href="#projectsNav"><span class="bluelight">#</span>projects</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+                <li>
+                    <a href="#skillsNav"><span class="bluelight">#</span>skills</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+                <li>
+                    <a href="#experienceNav"><span class="bluelight">#</span>experience</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+                <li>
+                    <a href="#educationNav"><span class="bluelight">#</span>education</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+                <li>
+                    <a href="#aboutmeNav"><span class="bluelight">#</span>aboutme</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+                <li>
+                    <a href="#messageNav"><span class="bluelight">#</span>message me</a>
+                    <span class="itemsUnderline"></span>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+
+
+        <div class="projectPrompt">
+            <button id="closeProjectPrompt"><i class="fa-solid fa-xmark text-white"></i></button>
+
+            <h1 id="projectTitle"></h1>
+            <img src="" alt="landing" id="ProjectlandingImage" />
+            <p id="projectDesc">
+
+            </p>
+            <div id="allProjectImages">
+
+            </div>
+        </div>
+        <div class="messagePrompt" id="messagePrompt">
+            <span>Message Have been Received</span> 
+            <button class="btn btn-success  promptBtn" id="promptBtn">Thank you</button>
+
+        </div>
+
+
+        <div class="introduction">
+            <div class="introText">
+                <h1>Hii, I'm <span class="bluelight" data-aos="zoom-out-left" data-aos-duration="500">Abhiram</span>
+                </h1>
+                <h3>Full stack developer</h3>
+                <p>I design and develop full stack web applications. I invested my time in building skills around web
+                    development and developed projects, and done few internships. </p>
+                <span class="my-3 social">
+                    <a href="http://linkedin.in/in/abhiram010" target="_blank" data-aos="fade-up"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/AbhiramAdapaka" target="_blank"  data-aos="fade-up" data-aos-delay="200"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/abhiram.adapaka?igshid=YmJhNjkzNzY=" target="_blank" data-aos="fade-up" data-aos-delay="400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/abhiram010" target="_blank"  data-aos="fade-up" data-aos-delay="400"><i class="fa-brands fa-square-github"></i></a>
+                </span>
+
+            </div>
+            <div class="introMedia" data-aos="fade-left" data-aos-duration="1000">
+                <img src="./images/pattern.svg" class="intro-p " alt="">
+                <img src="./images/portfolio.jpeg" class="introImg " alt="">
+                <div class="floatingIntro"> <i class="fa-solid fa-square bluelight"></i> Full stack web developer, WASIL
+                </div>
+            </div>
+        </div>
+
+        <div class="quoteParent">
+            <blockquote class="quote">The world of reality has its limits; the world of imagination is boundless <span
+                    class="quoteAuthor">
+                    Jean-Jacques Rousseau
+                </span></blockquote>
+            <div class="quoteDecoration">
+
+            </div>
+
+        </div>
+        <div class="container projects" style="margin-top: 15rem;" id="projectsNav">
+            <img src="./images/dots.svg" class="proj-p" data-aos="fade-right" alt="">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>project</h3>
+                    <div class="blueline"></div>
+                </span>
+                <span><i class="fa-solid fa-certificate" style="color:goldenrod"></i>Featured</span>
+            </div>
+            <div class="projectHeading projectsAll">
+                <div class="card" id="gmritProject" data-aos="fade-up">
+                    <img class="card-img-top" src="./images/project.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">GMRIT offcial Website</h4>
+                        <span>
+                            <button class="btn btn-primary projectView">Learn More</button>
+                            <a href="https://gmrit.edu.in" target="_blank"
+                                class="btn btn-success  projectBtnLink">Live</a>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="card" id="cseProject" data-aos="fade-up" data-aos-delay="300">
+                    <img class="card-img-top" src="./images/project.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Digitization of Department Services</h4>
+                        <span>
+                            <button class="btn btn-primary projectView">Learn More</button>
+                            <a href="http://csegmrit.live/" target="_blank"
+                                class="btn btn-success  projectBtnLink">Live</a>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="card" id="acmProject" data-aos="fade-up" data-aos-delay="600">
+                    <img class="card-img-top" src="./images/project.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">ACM GMRIT Website</h4>
+                        <span>
+                            <button class="btn btn-primary projectView">Learn More</button>
+                            <a href="https://gmritchapter.acm.org/new/" target="_blank"
+                                class="btn btn-success projectView projectBtnLink">Live</a>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container projects" id="skillsNav">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>skills</h3>
+                    <div class="blueline"></div>
+                </span>
+            </div>
+            <div class="spacer"></div>
+            <div class="uniqueSkill">
+                <div class="gridContainer">
+                    <div class="web" data-aos="zoom-in"> <img src="./images/skills.png"
+                            style="height:9rem; max-width: 100%;" />
+                    </div>
+                    <div class="html" data-aos="zoom-in" data-aos-delay="600"><img
+                            src="https://img.icons8.com/color/48/null/html-5--v1.png" class="m-2" /> HTML
+                    </div>
+                    <div class="css" data-aos="zoom-in" data-aos-delay="300"><img
+                            src="https://img.icons8.com/color/48/null/css3.png" /> CSS</div>
+                    <div class="cssaddons" data-aos="zoom-in" data-aos-delay="900"><img
+                            src="https://img.icons8.com/color/48/null/bootstrap.png" /> Bootstrap
+                    </div>
+                    <div class="js">
+                        <div data-aos="zoom-in" data-aos-delay="100"><img
+                                src="https://img.icons8.com/color/48/null/javascript--v1.png" class="m-2" />
+                            Javascript</div>
+                        <div data-aos="zoom-in" data-aos-delay="600"><img
+                                src="https://img.icons8.com/color/48/null/react-native.png" class="m-2" /> React Js
+                        </div>
+                    </div>
+                    <div class="node" data-aos="zoom-in" data-aos-delay="300"><img
+                            src="https://img.icons8.com/fluency/48/null/node-js.png" /> Node js</div>
+                    <div class="express" data-aos="zoom-in" data-aos-delay="900"><img
+                            src="https://img.icons8.com/ios/50/null/express-js.png" class="m-2" />
+                        Express js</div>
+                    <div class="mongo" data-aos="zoom-in" data-aos-delay="300"><img
+                            src="https://img.icons8.com/color/48/null/mongodb.png" class="m-2" />
+                        MongoDB</div>
+                    <div class="php" data-aos="zoom-in" data-aos-delay="300"><img src="./images/php.png" class="m-2"
+                            style="height: 48px;" />
+                    </div>
+                    <div class="python" data-aos="zoom-in" data-aos-delay="600"><img
+                            src="https://img.icons8.com/fluency/48/null/python.png" class="m-2" />
+                        Python</div>
+                    <div class="cpp" data-aos="zoom-in" data-aos-delay="900"><img
+                            src="https://img.icons8.com/color/48/null/git.png" class="m-2" /> Git
+                    </div>
+                    <div class="c" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-delay="500"><img
+                            src="https://img.icons8.com/fluency/48/null/c-programming.png" class="m-2" />
+                    </div>
+                    <div class="still text-white" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="300">Adding up new tiles...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills end -->
+        <div class="container projects" id="experienceNav">
+            <img src="./images/dots.svg" class="proj-p" data-aos="fade-right" alt="">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>experience</h3>
+                    <div class="blueline"></div>
+                </span>
+                <!-- <a href="#" class="projectsLink"><i class="fa-solid fa-certificate" style="color:goldenrod"></i>Featured</a> -->
+            </div>
+            <div class="work">
+                <div class="exp w1">
+                    <div class="floating fw1" data-aos="fade-up">
+                        <span><img src="https://img.icons8.com/color/48/null/internship.png" /></span>
+                    </div>
+                    <div data-aos="fade-right">
+                        <h3 class="graduationName"><span class="bluelight" style="font-size: 1.3rem;">Trainee - Digital
+                                <small>(Internship)</small>,
+                            </span><br> <span style="font-size: 1.1rem;"> WASIL Limited</span></h3>
+                        <span class="d-fle">
+                            <p>Developing D2A application for Airports. <br>
+                                I had been working on Push agent Desktop
+                                application which does CRON Job it collects
+                                data from multiple application databases, Api's
+                                and encrypt the data and push into D2A server. <br><br>
+                                <span class="bluelight">Tech Stack:</span> Electron JS, Express JS, Node JS.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="exp w2">
+                    <div class="floating fw2" data-aos="fade-up">
+                        <span><img src="https://img.icons8.com/color/48/null/hard-working.png" /></span>
+                    </div>
+                    <div data-aos="fade-left">
+                        <h3 class="graduationName"><span class="bluelight" style="font-size: 1.3rem;">Full stack
+                                developer</span><br> <span style="font-size: 1.1rem;"> G.G LABS PVT. LTD</span></h3>
+                        <span class="d-fle">
+                            <p>Designed and developed an E-Commerce
+                                project (fashion designers) with a content
+                                management system. <br>
+                                And developed CMS with interesting features
+                                for product ordering and shipping, such as
+                                managing reviews and gathering customer
+                                requirements based on product. <br><br>
+                                <span class="bluelight">Tech Stack: </span>HTML, CSS, Bootstrap,JavaScript, PHP and
+                                MySQL.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <!-- <div class="exp w3">
+                    <div class="floating fw3">
+                        <span>3</span>
+                    </div>
+                    <h3 class="graduationName"><span class="bluelight" style="font-size: 1.3rem;">Trainee - Digital,
+                        </span><br> <span style="font-size: 1.1rem;"> WAISL</span></h3>
+                    <span class="d-fle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quae laboriosam debitis, ab
+                            suscipit
+                            inventore iste expedita itaque perferendis earum deleniti nulla nisi ipsam at excepturi ea
+                            optio est
+                            delectus. Veniam tenetur sapiente maxime optio fugit voluptatum deleniti, vel dolor illum
+                            cum eos quas
+                            deserunt facilis delectus, magni, eius suscipit.</p>
+                    </span>
+                </div> -->
+
+            </div>
+        </div>
+
+        <!-- education start -->
+        <div class="container projects" id="educationNav">
+            <img src="./images/dots.svg" class="proj-p" data-aos="fade-right" alt="">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>education</h3>
+                    <div class="blueline"></div>
+                </span>
+                <!-- <a href="#" class="projectsLink"><i class="fa-solid fa-certificate" style="color:goldenrod"></i>Featured</a> -->
+            </div>
+            <div class="education">
+                <div class="one">
+                    <h3 class="graduationName"><span class="bluelight" style="font-size: 1.3rem;">Bachelor of
+                            technology,</span><br> <span style="font-size: 1.1rem;"> Computer Science and
+                            engineerig</span></h3>
+                    <span class="d-fle">
+                        <!-- <img src="https://gmrit.edu.in/images/logo.jpg" class="schoolLogo" alt=""> -->
+                        <h3>GMR Institute of Technology</h3>
+                    </span>
+                    <h5>2019-2023</h5>
+                    <h4 class="cgpa">CGPA: 6.83</h4>
+
+                    <!-- <span class="d-flex  schoolInfo">
+                        <img src="https://gmrit.edu.in/images/logo.jpg" class="schoolLogo" alt="">
+                        <h3>GMR Institute of Technology</h3>
+                    </span> -->
+
+
+
+                </div>
+                <div class="child" data-aos="fade-up-right">
+                    <img src="./images/kid.png" class="imageIllus" alt="">
+                </div>
+                <!-- <div class="pattern1">
+                    <img src="./images/pattern.svg" alt="">
+                </div>
+                <div class="pattern2">
+                    <img src="./images/dots.svg" alt="">
+                </div>
+                <div class="pattern3">
+                    <div class="squarePattern"></div>
+                </div> -->
+                <div class="teen" data-aos="fade-right">
+                    <img src="./images/teen.png" class="imageIllus" alt="">
+                </div>
+                <div class="young" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                    <img src="./images/young.png" class="imageIllus ypic" alt="">
+                </div>
+                <div class="two">
+                    <h3 class="graduationName"><span class="bluelight"
+                            style="font-size: 1.3rem;">Intermediate,</span><br> <span
+                            style="font-size: 1.1rem;">MPC</span></h3>
+                    <span class="d-fle">
+                        <!-- <img src="https://gmrit.edu.in/images/logo.jpg" class="schoolLogo" alt=""> -->
+                        <h3>Sri Chaitanya College, AryaBhavan</h3>
+                    </span>
+                    <h5>2017-2019</h5>
+                    <h4 class="cgpa">CGPA: 7.38</h4>
+                </div>
+
+                <div class="three">
+                    <h3 class="graduationName"><span class="bluelight" style="font-size: 1.3rem;">Secondary
+                            Education,</span><br> <span style="font-size: 1.1rem;"> </span></h3>
+                    <span class="d-fle">
+                        <!-- <img src="https://gmrit.edu.in/images/logo.jpg" class="schoolLogo" alt=""> -->
+                        <h3>Dr.KKR's Gowtham concept School, Rajamundry</h3>
+                    </span>
+                    <h5>2016-2017</h5>
+                    <h4 class="cgpa">CGPA: 9.26</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container projects" id="aboutmeNav">
+            <img src="./images/dots.svg" class="proj-p" data-aos="fade-right" alt="">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>about me</h3>
+                    <div class="blueline"></div>
+                </span>
+                <!-- <a href="#" class="projectsLink"><i class="fa-solid fa-certificate" style="color:goldenrod"></i>Featured</a> -->
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <p>Passionate to develop web applications with good user experience. I always want to learn new
+                        things, update myself with
+                        current technologies and implement my knowledge to tackle problems. I'm good at developing user
+                        interfaces with pixel
+                        perfection. As a fresher, I want to work in a challenging environment and be in a team where I
+                        could work with new
+                        challenges, and grow my career.</p>
+                    <!-- <button class="btn btn-primary learnmore">Learn more <i
+                            class="fa-solid fa-arrow-right-long mx-2"></i></button> -->
+                </div>
+                <div class="aboutImg">
+                    <!-- <img src="./images/pattern.svg" class="about-p" alt=""> -->
+                    <img src="./images/contact.jpeg" alt="" data-aos="flip-left">
+                    <div class="about-square" data-aos="fade-right">
+                        Contact me: <br>
+                        abhiramadapaka@gmail.com, <br>
+                        +91 6281141927
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="container projects" id="messageNav">
+            <img src="./images/dots.svg" class="proj-p" data-aos="fade-right" alt="">
+            <div class="projectHeading">
+                <span class="projectTitle">
+                    <h3><span class="bluelight">#</span>message me</h3>
+                    <div class="blueline"></div>
+                </span>
+                <!-- <a href="#" class="projectsLink"><i class="fa-solid fa-certificate" style="color:goldenrod"></i>Featured</a> -->
+            </div>
+            <div class="form">
+                <form class="container">
+                    <div class="row contactForm">
+
+                        <div class="col col-12 col-md-6  mb-3" data-aos="zoom-in" data-aos-delay="300">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" required class="form-control" name="" id="messageName" placeholder="">
+                            <!-- <small class="form-text text-muted">Help text</small> -->
+                        </div>
+                        <div class="col col-12  col-md-6 mb-3" data-aos="zoom-in" data-aos-delay="150">
+                            <label for="" class="form-label">Email</label>
+                            <input type="email" required class="form-control" name="" id="messageEmail" placeholder="">
+                            <!-- <small id="errorText emailError" class="form-text text-muted">Help text</small> -->
+                        </div>
+                        <div class="mb-3" data-aos="zoom-in">
+                            <label for="" class="form-label">Message</label>
+                            <textarea required class="form-control" name="" id="messageItself" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary formBtn" id="submitBtn" data-aos="zoom-in"
+                        data-aos-anchor-placement="top-bottom">Submit</button>
+                </form>
+
+            </div>
+        </div>
+
+        <footer class="d-flex justify-content-center align-items-center footer">
+            <h5>Adapaka Abhiram</h5>
+            <span class="my-3 social">
+                <a href="http://linkedin.in/in/abhiram010" target="_blank" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/AbhiramAdapaka" target="_blank" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-bottom"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/abhiram.adapaka?igshid=YmJhNjkzNzY=" target="_blank" data-aos="fade-up"
+                    data-aos-delay="400" data-aos-anchor-placement="top-bottom"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/abhiram010" target="_blank" data-aos="fade-up" data-aos-delay="400"><i
+                        class="fa-brands fa-square-github" data-aos-anchor-placement="top-bottom"></i></a>
+            </span>
+            <small>Design Inspiration <a href="https://www.behance.net/gallery/156325107/Portfolio/modules/881972445" target="_blank" class="text-white">Behance</a></small>
+        </footer>
+    </main>
+
+</body>
+<script src="./scripts/scripts.js"></script>
+<!-- bootstrap@5.3.0-alpha1 JavaScript  -->
+<script src="./assets/bootstrap/js/bootstrap.bundle.js">
+</script>
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/e8988c25e2.js" crossorigin="anonymous"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="./assets/lightbox2-2.11.4/src/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'disableScrolling': true,
+    })
+</script>
+
+</html>
