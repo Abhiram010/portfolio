@@ -139,7 +139,7 @@ function previewProject(projectSelected) {
     document.getElementById("projectDesc").innerText = ourProject.desc;
     let allImages = document.getElementById("allProjectImages");
     allImages.innerHtml=""
-    for (let pic = 1; pic < ourProject.images.length; pic++) {
+    for (let pic = 0;pic < ourProject.images.length; pic++) {
       let imgCode = document.createElement("img");
       let aLink = document.createElement('a');
       aLink.setAttribute("data-lightbox", ourProject.name.trim());
