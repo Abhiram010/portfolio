@@ -138,6 +138,7 @@ function previewProject(projectSelected) {
     document.getElementById("ProjectlandingImage").src = ourProject.images[0];
     document.getElementById("projectDesc").innerText = ourProject.desc;
     let allImages = document.getElementById("allProjectImages");
+    allImages.innerHtml=""
     for (let pic = 1; pic < ourProject.images.length; pic++) {
       let imgCode = document.createElement("img");
       let aLink = document.createElement('a');
