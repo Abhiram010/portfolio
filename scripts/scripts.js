@@ -131,14 +131,16 @@ function previewProject(projectSelected) {
   if (projects[projectSelected] != undefined) {
     let ourProject = projects[projectSelected];
     let projectPrompt = document.getElementsByClassName("projectPrompt")[0];
+    let allImages = document.getElementById("allProjectImages");
+    allImages.innerHTML = '';
+    console.log(allImages)
     // dom manuplation
     document.getElementById("projectTitle").innerText = ourProject.name;
     console.log(ourProject.images[0]);
 
     document.getElementById("ProjectlandingImage").src = ourProject.images[0];
     document.getElementById("projectDesc").innerText = ourProject.desc;
-    let allImages = document.getElementById("allProjectImages");
-    allImages.innerHtml=""
+    
     for (let pic = 0;pic < ourProject.images.length; pic++) {
       let imgCode = document.createElement("img");
       let aLink = document.createElement('a');
