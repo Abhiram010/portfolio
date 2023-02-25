@@ -3,7 +3,16 @@ var items = document.getElementById("items");
 var closer = document.getElementById("closer");
 var toggler = document.getElementById("toggler");
 alertNavbar();
+function liClickEvent(){
+if (window.innerWidth < 560) {
+        closerAnimation();
+        }
+        else{
+         closerAnimationRemover()
+        }
+}
 window.addEventListener("resize", () => {
+     liClickEvent()
     alertNavbar();
 });
 
@@ -57,24 +66,24 @@ function navbarReset() {
     items.style.transition = "smooth";
 }
 
-// function closerAnimation() {
-//     let itemsLi = document.getElementById("items").querySelectorAll('li');
-//     for (let ii = 0; ii < itemsLi.length; ii++) {
-//         // console.log(itemsLi[ii])
-//         if (window.innerWidth < 560) {
-//             console.log("deployed", window.innerWidth)
-//             itemsLi[ii].addEventListener('click', clickClearNavbar)
-//         }
-//         else{
-//             itemsLi[ii].removeEventListener('click', clickClearNavbar)
-//             }
-
-//     }
-// }
-// function clickClearNavbar(){
-//                 var closer = document.getElementById("closer");
-//                 closer.click()
-//            }
+function closerAnimation() {
+    let itemsLi = document.getElementById("items").querySelectorAll('li');
+    for (let ii = 0; ii < itemsLi.length; ii++) {
+        console.log("deployed", window.innerWidth)
+        itemsLi[ii].addEventListener('click', clickClearNavbar)
+   }
+}
+function closerAnimationRemover() {
+    let itemsLi = document.getElementById("items").querySelectorAll('li');
+    for (let ii = 0; ii < itemsLi.length; ii++) {
+        console.log("deployed", window.innerWidth)
+        itemsLi[ii].removeEventListener("click", clickClearNavbar);
+   }
+}
+function clickClearNavbar(){
+     var closer = document.getElementById("closer");
+     closer.click()
+ }
 
 
 closer.addEventListener("click", () => {
