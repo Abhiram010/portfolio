@@ -57,14 +57,14 @@ function navbarReset() {
   items.style.transition = "smooth";
 }
 
-let itemsLi = document.getElementById("items").querySelectorAll('li');
-for (let ii = 0; ii < itemsLi.length; ii++){
-  // console.log(itemsLi[ii])
-  itemsLi[ii].addEventListener('click', () => {
-var closer = document.getElementById("closer");
-    closer.click()
-  })
-}
+// let itemsLi = document.getElementById("items").querySelectorAll('li');
+// for (let ii = 0; ii < itemsLi.length; ii++){
+//   // console.log(itemsLi[ii])
+//   itemsLi[ii].addEventListener('click', () => {
+// var closer = document.getElementById("closer");
+//     closer.click()
+//   })
+// }
 
 
 closer.addEventListener("click", () => {
