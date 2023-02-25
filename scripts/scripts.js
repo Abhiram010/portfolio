@@ -3,6 +3,7 @@ var items = document.getElementById("items");
 var closer = document.getElementById("closer");
 var toggler = document.getElementById("toggler");
 alertNavbar();
+iClickEvent();
 function liClickEvent(){
 if (window.innerWidth < 560) {
         closerAnimation();
