@@ -65,14 +65,18 @@ function closerAnimation() {
         // console.log(itemsLi[ii])
         if (window.innerWidth < 560) {
             console.log("deployed", window.innerWidth)
-            itemsLi[ii].addEventListener('click', () => {
-                var closer = document.getElementById("closer");
-                closer.click()
-            })
+            itemsLi[ii].addEventListener('click', clickClearNavbar)
         }
+        else{
+            itemsLi[ii].removeEventListener('click', clickClearNavbar)
+            }
 
     }
 }
+function clickClearNavbar(){
+                var closer = document.getElementById("closer");
+                closer.click()
+           }
 
 
 closer.addEventListener("click", () => {
