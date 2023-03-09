@@ -113,3 +113,18 @@ body{
         right: 0;
     }
 }
+.quoteMan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.reload{
+    height: 1.5rem;
+}
+.reloadQuote{
+    height: min-content;
+    background: none;
+    border: none;
+    margin: 10px;
+}
