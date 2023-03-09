@@ -23,6 +23,19 @@ body{
     top: -10rem;
     right: -8rem;
     transform: rotate(30deg);
+    animation: eathMove 20s infinite linear;
+}
+@keyframes eathMove {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
 }
 .mowa{
     height: 16rem;
@@ -31,6 +44,8 @@ body{
     left: -10px;
     z-index: -1;
 }
+
+
 .search{
     display: flex;
     justify-content: center;
