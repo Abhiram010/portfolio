@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #181D31;
+    overflow: hidden;
+}
+.landingPic{
+    height: 40rem;
+    position: absolute;
+    top: -8rem;
+    right: -10rem;
+}
+.earth{
+    position: absolute;
+    height: 30rem;
+    top: -10rem;
+    right: -8rem;
+    transform: rotate(30deg);
+}
+.mowa{
+    height: 16rem;
+    position: absolute;
+    bottom: 0rem;
+    left: -10px;
+    z-index: -1;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border: solid;
+}
+.search input{
+    width: 40vw;
+    height: min-content;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #eeee;
+
+}
+.search input:focus{
+    transform: translate(-1px,-1px);
+    box-shadow: 05px 05px 0px #2980a377;
+    }
+.search h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    /* text-shadow: 1px 1px 1px #000032, 0 0 1em #00115c, 0 0 0.2em #0082b5; */
+}
+.webList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.websites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid grey 1px ; */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0px;
+    background: #ffffff;
+    
+}
+
+.websites a{
+    color: #313131;
+    text-decoration: none;
+}
+.websites:hover{
+    transform: translate(-1px,-1px);
+        box-shadow: 5px 5px 0px grey;
+
+}
+.websites h6{
+    color: #eeee;
+}
+.websiteLogo{
+    height: 4rem;  
+}
+.quoteTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: min-content;
+}
+#quote{
+    margin-top: 2rem;
+    /* font-size: 1.3rem; */
+    text-align: center;
+    width: 50vw;
+}
+#quoteAuth{
+    margin-top: .2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+@media (max-width:768px) {
+    .mowa{
+        height: 8rem;
+        top: 0;
+        right: 0;
+    }
+}
